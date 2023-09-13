@@ -7,12 +7,12 @@ This repository contains implementations and explanations of various data struct
 
 ## Data Structures
 
-Arrays
+- Arrays
 - Linked Lists
 - Stacks and Queues
 - Trees (Binary Trees, Binary Search Trees, AVL Trees, etc.)
 - Hash Tables
-- Heaps
+- Heap
 
 ## Algorithms
 
