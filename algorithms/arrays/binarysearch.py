@@ -6,24 +6,26 @@
 """
 
 # Without Recursion
-def binarySearchh(arr,target):
+class Solution(object):
+    def binarysearch(self, nums, target):
+        """
+        :type nums: List[int]
+        :type target: int
+        :rtype: int
+        """
+        left = 0
+        right = len(nums)-1
+        
+        while left <=right:
+            mid = (left + right)//2
+            if target == nums[mid]:
+                return mid
+            elif target > nums[mid]:
+                left = mid+1
+            else:
+                right = mid-1
 
-    left = 0
-    right = len(arr)-1
-    mid = (left+right)//2
-
-    target_idx = []
-
-    while left <=right:
-        if arr[mid] == target:
-            target_idx.append(mid)
-            return target_idx
-        elif arr[mid] < target:
-            left = mid+1
-        else:
-            right = mid-1
-
-    return target_idx
+        return -1
 
 
 #Using Recursion
