@@ -23,7 +23,7 @@ def merge(left,right):
     left_index,right_index = 0,0
     merged = []
 
-    while left_index < len(left) and right_index < right:
+    while left_index < len(left) and right_index < len(right):
         if left[left_index] < right[right_index]:
             merged.append(left[left_index])
             left_index+=1
