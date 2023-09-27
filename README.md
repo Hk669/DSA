@@ -1,8 +1,6 @@
 # Data Structures and Algorithms
 
-This repository contains implementations and explanations of various data structures and algorithms commonly used in computer science and software development. Each section provides code examples and explanations to help you understand and learn these concepts.
-
-![image](https://github.com/Hk669/DSA/assets/96101829/c785e5df-15a1-46aa-94d7-dae2313360b9)
+This repository contains implementations and explanations of various data structures and algorithms commonly used in computer science and software development. Each section provides code examples and explanations to help you understand and learn these concepts. I've added the leetcode problems too.
 
 
 ## Data Structures
