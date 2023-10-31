@@ -1,7 +1,8 @@
 ```sql
 SELECT SQL_QUERIES 
 FROM JOURNEY
-WHERE PROBLEMS = 'leetcode';
+WHERE PROBLEMS = 'leetcode' and
+      DAY = 'sunday';
 ```
 
-just some sql practice problems from leetcode...
+SQL Sundays :)) 
