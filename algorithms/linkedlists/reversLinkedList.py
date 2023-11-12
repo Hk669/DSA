@@ -3,6 +3,28 @@ class ListNode:
         self.val = val
         self.next = next
 
+class LinkedList:
+    def __init__(self):
+        self.head = None
+
+    def append(self,val):
+        new_node = ListNode(val)
+        if self.head is None:
+            self.head = new_node
+        current = self.head
+        while current.next:
+            current = current.next
+        current.next = new_node
+
+    def display(self):
+        elements = []
+        current = self.head
+        while current:
+            elements.append(current.val)
+            current = current.next
+        return elements
+    
+
 class Solution:
     def reverseLinkedList(self, head):
         """

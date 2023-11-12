@@ -4,6 +4,28 @@ class ListNode(object):
         self.val = val
         self.next = next
 
+class LinkedList:
+    def __init__(self):
+        self.head = None
+
+    def append(self):
+        new_node = ListNode(self.val)
+        if self.head is None:
+            self.head = new_node
+        curr = self.head
+        while curr.next:
+            curr = curr.next
+        curr.next = new_node
+
+    def display(self):
+        elements = []
+        curr = self.head
+        while curr:
+            elements.append(curr.val)
+            curr = curr.next
+        return elements
+
+    
 class Solution(object):
     def mergeKLists(self, lists):
         """
