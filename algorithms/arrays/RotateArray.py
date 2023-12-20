@@ -1,3 +1,12 @@
+"""
+approach:
+instead of rotating each element we can cut off some unnecessary steps by K = K % len(arr)
+then reverse the whole arr
+reverse the elements from 0 to K-1 ( as the elements start from 0 , k should be decremented by 1)
+reverse the next elements of to the end
+return the arr
+"""
+
 class Solution(object):
     def rotate(self, nums, k):
         """
