@@ -8,26 +8,30 @@ class TreeNode(object):
         self.right = right
 
 class Solution(object):
-    def levelOrder(self, root):
+    def treeLevelOrder(self,root):
         """
         :type root: TreeNode
         :rtype: List[List[int]]
         """
-        result = []
-
-        q = deque()
-        q.append(root)
+        if root is None:
+            return root
+        
+        res = []
+        q = deque([root])
 
         while q:
             qLen = len(q)
             level = []
+
             for i in range(qLen):
                 node = q.popleft()
+
                 if node:
                     level.append(node.val)
-                    q.append(node.left)
-                    q.append(node.right)
+                    if node.left:
+                        q.append(node.left)
+                    if node.right:
+                        q.append(node.right)
             if level:
-                result.append(level)
-
-        return result
+                res.append(level)
+        return res

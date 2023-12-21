@@ -47,3 +47,44 @@ class Solution:
 
         return dummy.next
 
+
+
+# prep
+class ListNode:
+    def __init__(self,head):
+        self.head = head
+        self.next = None
+
+class LinkedList:
+    def __init__(self):
+        self.head = None
+
+    def append(self):
+        node = ListNode(0)
+        if self.head is None:
+            self.head = node
+        
+        curr = self.head
+        while curr:
+            curr = curr.next
+        curr.next = node
+        
+class Sol:
+    def removeNthNode(self,head, n):
+
+        dummy = ListNode(0)
+        dummy.next = head
+
+        slow = dummy
+        fast = dummy
+
+        for _ in range(n+1):
+            fast = fast.next
+
+        while fast and fast.next:
+            slow = slow.next
+            fast = fast.next
+
+        slow.next = slow.next.next
+
+        return dummy.next
