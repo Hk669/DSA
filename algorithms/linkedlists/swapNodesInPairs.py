@@ -41,11 +41,11 @@ class Solution:
                 node1 = curr.next
                 node2 = curr.next.next
 
-                curr.next = node2
+                curr.next = node2 #updates the 3rd node
                 node1.next = node2.next
                 node2.next = node1
 
-                curr = node1
+                curr = node1 #updates to the 2nd node
 
             return dummy.next
         return head
