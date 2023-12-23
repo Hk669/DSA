@@ -31,6 +31,7 @@ class Solution:
                 curr_gap +=1
         return max_gap
 
+    # used for converting the int to binary
     def helper(self,num):
 
             bin_num = ""
