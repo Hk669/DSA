@@ -57,7 +57,8 @@ Before running the tests, make sure you have:
    if __name__ == '__main__':
        unittest.main()
    ```
-
+    The ``` if __name__ == '__main__':``` block ensures that the script is running directly and not being imported as a module into another script. When a Python script is executed, the `__name__` variable is set to `'__main__'`, indicating that it is the main program being run.
+    
    c. Run the tests using the following command:
 
    ```

@@ -5,7 +5,7 @@ from algorithms.arrays import (
 
 class TwoSumTesting(unittest.TestCase):
 
-    def testingTwosum(self):
+    def test_Twosum(self):
         self.assertEqual(twoSum([23,45,10,12,34],22),[2,3])
 
         self.assertEqual(twoSum([1,2,3,4,5,6,7,8,9,10],3),[0,1])
