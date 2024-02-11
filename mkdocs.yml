@@ -1,15 +1,27 @@
-site_name: Solutions
-
+site_name: hk
+site_author: Hrushikesh Dokala
+site_url : https://hk669.github.io/dsa/
+repo_url: https://github.com/Hk669/DSA
+repo_name: Hk669/DSA
+edit_uri: edit/main/docs
 nav:
-  - Home: index.md
-  - Algorithms: algorithms.md
-  - Arrays: arrays.md
+  - Home:
+    - Home: index.md
+    - Data Structures: algorithms.md
+    - Contribution: contribution.md
+    - Blog: https://blog.hrushikesh.xyz
+  - Data Structures:
+    - Introduction: algorithms.md
+    - Contribution: contribution.md
+    - Blog: https://blog.hrushikesh.xyz
+  - Blog: https://blog.hrushikesh.xyz
+  # - Arrays: arrays.md
 theme:
   name: material
-  logo: assets/hk.png
+  logo: assets/favicon.svg
   icon:
     repo: fontawesome/brands/git-alt
-  favicon: assets/hk.png
+  favicon: assets/favicon.svg
   features:
     - announce.dismiss
     - content.action.edit
@@ -44,14 +56,14 @@ theme:
         icon: material/brightness-7
         name: Switch to dark mode
     - scheme: slate
-      primary: black
+      primary: deep blue
       accent: indigo
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
   font:
-    text: Open Sans
-    code: Open Sans
+    text: Roboto 
+    code: Roboto Mono
 markdown_extensions:
   - abbr
   - admonition
@@ -112,3 +124,5 @@ extra:
   generator: false
 plugins: 
   - mkdocstrings
+  - search
+copyright: Copyright &copy; 2024 Hrushikesh Dokala

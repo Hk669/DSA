@@ -1,14 +1,11 @@
----
-icon: material/application-array
----
-### Introduction
+## Introduction
 
 Each problem on the platform includes a direct solution, while others solely outline the approach within a function.
 
 ---
 
-::: algorithms.arrays.binarygap
+::: algorithms.stack.daily_temperatures
 
 ---
 
-::: algorithms.arrays.binarysearch
+::: algorithms.stack.roman_int

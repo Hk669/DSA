@@ -1,18 +1,28 @@
 """
-the approach:
--- convert the given num to binary using the helper function
---- iterate through each digit and check if it is 1 
----- and check if the ingap is True then modify the maxGap and make the curr_gap = 0 because we reached ano0ther 1
---- else make the ingap as True cuz we entered the gap 
--- increase the curr_gap by 1 until we reach other 1
--- return the max_gap 
+the Approach:
+
+- convert the given num to binary using the helper function
+
+- iterate through each digit and check if it is 1 
+
+- and check if the ingap is True then modify the maxGap and make the curr_gap = 0 because we reached ano0ther 1
+
+- else make the ingap as True cuz we entered the gap 
+
+- increase the curr_gap by 1 until we reach other 1
+
+- return the max_gap 
 """
+
 
 class Solution:
     def binGap(self,num):
         """
-        :type num: int
-        :rtype : int
+        Args:
+            num int : Input
+
+        Return:
+            max_gap int : Output
         """
 
         bin_num = self.helper(num)

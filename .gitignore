@@ -4,5 +4,6 @@ __pycache__
 .env
 /venv
 
-ci.yml
 test.yml
+
+/pull.py
