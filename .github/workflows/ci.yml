@@ -20,8 +20,11 @@ jobs:
       - name:  Install Dependencies
         run: pip install -r requirements.txt
 
-      - name: Build mkdocs
-        run: mkdocs build
+      - name: Build and Deploy
+        run: |
+        mkdocs build
+        mkdocs gh-deploy --force
+
 
       # - name: Deploy to pages
       #   run: peaceiris/actions-gh-pages@v3
