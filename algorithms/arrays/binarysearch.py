@@ -12,9 +12,8 @@ class Solution(object):
         Args:
             nums List[int] : Input array
             target int : element to be searched
-
-        Return:
             target_idx int : Position of target
+            
         """
         left = 0
         right = len(nums)-1

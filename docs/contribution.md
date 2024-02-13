@@ -32,6 +32,24 @@ Thank you for considering contributing to DSA Solutions! Your contributions are 
 
  Create a pull request (PR) to the main repository's `main` branch, detailing the changes you've made and their significance.
 
+### Use Docker
+
+1. **Install Docker Desktop**: If you haven't already, install Docker Desktop on your local machine.
+2. **Pull Docker Image**: Pull the Docker image from Docker Hub using the following command:
+    ```sh
+    docker pull hk669/dsadocs:latest
+    ```
+3. **Start Container**: Run the Docker container in detached mode and map port 8000 on your local machine to port 8000 inside the container:
+    ```sh
+    docker run -d -p 8000:8000 hk669/dsadocs:latest
+    ```
+4. **Edit Files**: Once the container is running, you can edit the files locally on your machine using your preferred code editor.
+5. **Test Changes**: Verify your changes by accessing the documentation site at http://localhost:8000 in your web browser.
+6. **Push Changes**: Once you're satisfied with your changes, commit them to your forked repository and push the changes to GitHub.
+
+By using Docker, you can ensure a consistent development environment and easily share your contributions with others. Happy coding!
+
+
 ### Code Guidelines
 
 - Follow consistent coding styles and naming conventions.

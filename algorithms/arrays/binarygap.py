@@ -20,8 +20,6 @@ class Solution:
         """
         Args:
             num int : Input
-
-        Return:
             max_gap int : Output
         """
 

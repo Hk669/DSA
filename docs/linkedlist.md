@@ -1,3 +1,9 @@
+---
+hide:
+    - footer
+icon: material/link-box
+---
+
 ### Introduction
 
 Each problem on the platform includes a direct solution, while others solely outline the approach within a function.

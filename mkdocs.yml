@@ -1,7 +1,7 @@
 site_name: hk
 site_author: Hrushikesh Dokala
-site_url : https://hk669.github.io/DSA/
-repo_url: https://github.com/Hk669/DSA
+site_url : https://dsa.hrushikesh.xyz/
+repo_url: https://github.com/Hk669/DSA/
 repo_name: Hk669/DSA
 edit_uri: edit/main/docs
 nav:
@@ -12,10 +12,18 @@ nav:
     - Blog: https://blog.hrushikesh.xyz
   - Data Structures:
     - Introduction: algorithms.md
+    - Arrays: arrays.md
+    - Linkedlist: linkedlist.md
+    - Stack|Queue: stack.md
+    - Graph: graph.md
+    - Trees: trees.md
+    - String: string.md
+    - Apps: apps.md
+    - Math: math.md
     - Contribution: contribution.md
     - Blog: https://blog.hrushikesh.xyz
   - Blog: https://blog.hrushikesh.xyz
-  # - Arrays: arrays.md
+
 theme:
   name: material
   logo: assets/favicon.svg

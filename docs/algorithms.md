@@ -21,22 +21,22 @@ This way, I can revisit and review my approaches and solutions with clarity, eve
 
 ## Linear 
 
-[Arrays](/arrays)
+[Arrays](/DSA/arrays)
 
-[Stack | Queue](/stack)
+[Stack | Queue](/DSA/stack)
 
-[Linkedlist](/linkedlist)
+[Linkedlist](/DSA/linkedlist)
 
 ## Non Linear
 
-[Binary Tree](/trees)
+[Binary Tree](/DSA/trees)
 
-[Graphs](/graph)
+[Graphs](/DSA/graph)
 
 ## Extra
 
-[Apps](/apps)
+[Apps](/DSA/apps)
 
-[Math](/math)
+[Math](/DSA/math)
 
-[Strings](/string)
+[Strings](/DSA/string)

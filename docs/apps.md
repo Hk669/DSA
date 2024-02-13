@@ -1,3 +1,9 @@
+---
+hide:
+    - footer
+icon: material/apps
+---
+
 ### Introduction
 
 each problem has a solution directly and other defines only the approach in function.
