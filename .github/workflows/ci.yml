@@ -25,3 +25,6 @@ jobs:
           mkdocs build
           mkdocs gh-deploy --force
 
+      - name: Set up custom domain
+        run: |
+          echo "dsa.hrushikesh.xyz" > CNAME
